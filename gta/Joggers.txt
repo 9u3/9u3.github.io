@@ -1,10 +1,10 @@
 Joggers
 
 Method:
-1. Equip C1 outfit with NO GLOVES and any joggers. (Use Isreal/Classic parachute bag)
+1. Equip C1 outfit with NO GLOVES and any joggers. (Use Israel/Classic parachute bag)
 2. Lag C1 with netcut. (Bandwith 5kbps, incoming 7500)
 3. Login to gta on C2 and start an invite only session.
-4. Equip C2 outfit then re-equip your Isreal/Classic parachute bag, Wait for the yellow circle.
+4. Equip C2 outfit then re-equip your Israel/Classic parachute bag, Wait for the yellow circle.
 5. Go to storymode then fully close GTA.
 6. Remove your parachute on C1 then unlag console with netcut.
 7. Wait for a "Save Successful" message. (Buy ammo / take easy way out if needed)
