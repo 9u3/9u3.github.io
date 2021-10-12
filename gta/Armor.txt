@@ -1,0 +1,24 @@
+Armor
+
+Method
+1. Get pure black armor from Work Dispute (You need to be host. How to save is in SaveInJob.txt)
+2. On your C1 outfit put on armor from the Interaction Menu, Equip the israel parachute bag (Inventory > Body Armor > Show Armor. Make sure Auto Show Armor is ON)
+3. Lag C1 with netcut. (Bandwith 5kbps, incoming 7500)
+4. Login to gta on C2 and start an invite only session.
+5. Equip C2 outfit then re-equip your Isreal parachute bag, Wait for the yellow circle.
+6. Go to storymode then fully close GTA.
+7. Remove your parachute on C1 then unlag console with netcut.
+8. Wait for a "Save Successful" message. (Buy ammo / take easy way out if needed)
+9. Quit to storymode.
+10. Start an invite only session.
+11. You should have the armor correlated with the one you chose, Save it. (check HowToMerge.txt if you want it on a new outfit)
+
+Colors
+C2: Any Colored Armor (Work Dispute is easiest)
+
+
+	Green				Orange				Purple
+	C1: Super Light Armor		C1: Standard Armor		C2: Heavy Armor
+	
+	Pink				Red
+	C1: Super Heavy Armor		C1: Light Armor
