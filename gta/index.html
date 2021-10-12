@@ -1,25 +1,118 @@
 <html>
-  <body>
-    <script>
-      (async () => {
-          let response = await fetch('https://api.github.com/repos/9u3/9u3.github.io/contents/gta');
-          let data = await response.json();
-          let htmlString = '<ul>';
-          let blacklist = {
-            'index.html': 1
-          };
+<head>
+<title>I Syvects I</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+@font-face {
+   font-family: 'Poppins', sans-serif;
+}
 
-          for (let file of data) {
-              if(file.name in blacklist) {
-                  continue;
-              }
+* {
+   font-family: 'Poppins', sans-serif;
+}
+   
+           
+#myDiv {
+   display: none;
+   text-align: center;
+}
+</style>
+</head>
+<body onload="JustATimeout()" style="margin:0;">
+   
+<div style="display:none;" id="myDiv">
+   <style>
+       #shadowBox {
+       background-color: rgb(0, 0, 0);
+       /* Fallback color */
+       background-color: rgba(43,43,43, 0.2);
+       /* Black w/opacity/see-through */
+       border: 10px solid;
+       }
 
-              htmlString += `<li>For ${file.name.replace(".txt", "")} Click <a href="https://9u3.github.io/${file.path}">here</a></li>`;
-          }
+       .rainbow {
+           text-align: center;
+           text-decoration: underline;
+           font-size: 32px;
+           font-family: monospace;
+           letter-spacing: 5px;
+       }
+       .rainbow_text_animated {
+           background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+           -webkit-background-clip: text;
+           background-clip: text;
+           color: transparent;
+           animation: rainbow_animation 6s ease-in-out infinite;
+           background-size: 400% 100%;
+       }
 
-          htmlString += '</ul>';
-          document.getElementsByTagName('body')[0].innerHTML = htmlString;
-      })();
-    </script>
-  <body>
+       @keyframes rainbow_animation {
+           0%,100% {
+               background-position: 0 0;
+           }
+
+           50% {
+               background-position: 100% 0;
+
+       </style>
+
+       <style>
+         a:link, a:visited {
+             background-color: rgb(43,43,43);
+             color: rgb(25,175,175);
+             border: 2px solid rgb(125,125,125);
+             padding: 10px 20px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+           }
+
+         a:hover, a:active {
+             background-color: rgb(75,75,75);
+             color: rgb(175,25,25);
+         }
+       </style>
+
+       <div id="shadowBox">
+           <h3 class="rainbow rainbow_text_animated">GTA V</h3>
+       </div>
+
+       <div id="H">
+         <h3 id="_jgs">Joggers</h3>
+           <a href="/Joggers.txt">BEFF/Flip Joggers</a>
+       </div>
+  
+       <div id="A">
+         <h3 id="_armor">Armor</h3>
+           <a href="/Armor.txt">BEFF/Flip Armor</a>
+       </div>
+  
+       <div id="T">
+         <h3 id="_tut">Tutorials</h3>
+           <a href="/tutorials">Tutorials</a>
+       </div>
+  
+   </div>
+
+<script>
+var myVar;
+
+function JustATimeout() {
+  myVar = setTimeout(showPage, 10);
+}
+
+function showPage() {
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<style>
+  body {
+    background-color: rgb(43,43,43);
+  }
+  #_jgs {background-color:rgba(0,0,0,0.3);}
+  #_armor {background-color:rgba(0,0,0,0.3);}
+  #_tut {background-color:rgba(0,0,0,0.3);}
+</style>
+</body>
 </html>
