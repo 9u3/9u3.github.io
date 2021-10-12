@@ -1,0 +1,27 @@
+Joggers
+
+Method:
+1. Equip C1 outfit with NO GLOVES and any joggers. (Use Isreal/Classic parachute bag)
+2. Lag C1 with netcut. (Bandwith 5kbps, incoming 7500)
+3. Login to gta on C2 and start an invite only session.
+4. Equip C2 outfit then re-equip your Isreal/Classic parachute bag, Wait for the yellow circle.
+5. Go to storymode then fully close GTA.
+6. Remove your parachute on C1 then unlag console with netcut.
+7. Wait for a "Save Successful" message. (Buy ammo / take easy way out if needed)
+8. Quit to storymode.
+9. Start an invite only session.
+10. You should load in with the joggers associated with the pnts you put on C2 outfit
+
+C1: ANY JOGGERS	(Tan is easiest)
+
+	Green				Orange				Purple
+	C2: Blue Digital Cargos		C2: Brown Digital Cargos	C2: Green Digital Cargos
+
+	Pink				Red			        Blue
+	C2: Grey Digital Cargos		C2: Peach Digital Cargos	C2: Fall Cargos
+
+	Grey				Tan			        White
+	C2: Dark Woodland Cargos	C2: Crosshatch Cargos		C2: Moss Digital Cargos
+
+	Black
+	C2: Grey Woodland Cargos	
