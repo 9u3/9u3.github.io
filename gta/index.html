@@ -14,7 +14,7 @@
                   continue;
               }
 
-              htmlString += `<li><a href="https://9u3.github.io/${file.path}">${file.name}</a></li>`;
+              htmlString += `<li><a href="https://9u3.github.io/${file.path}">${file.name.replace(".txt", "")}</a></li>`;
           }
 
           htmlString += '</ul>';
