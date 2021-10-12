@@ -5,7 +5,7 @@ C2: Same outfit, no armor
 
 Method
 1. Equip Israel parachute on C1 outfit.
-2. Lag C1 with netcut. (Bandwith 5kbps, incoming 7500)
+2. Lag C1 with netcut. (Bandwith 5kbps, incoming 7500) (WAIT FOR 5 MINUTES AFTER THIS STEP THEN CONTINUE)
 3. Login to gta on C2 and start an invite only session.
 4. Equip C2 outfit then re-equip your Israel parachute bag, Wait for the yellow circle.
 5. Go to storymode then fully close GTA.
