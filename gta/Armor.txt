@@ -3,7 +3,7 @@ Armor
 Method
 1. Get pure black armor from Work Dispute (You need to be host. How to save is in SaveInJob.txt)
 2. On your C1 outfit put on armor from the Interaction Menu, Equip the israel parachute bag (Inventory > Body Armor > Show Armor. Make sure Auto Show Armor is ON)
-3. Lag C1 with netcut. (Bandwith 5kbps, incoming 7500)
+3. Lag C1 with netcut. (Bandwith 5kbps, incoming 7500) (WAIT FOR 5 MINUTES AFTER THIS STEP THEN CONTINUE)
 4. Login to gta on C2 and start an invite only session.
 5. Equip C2 outfit then re-equip your Isreal parachute bag, Wait for the yellow circle.
 6. Go to storymode then fully close GTA.
