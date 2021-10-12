@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <script>
+      (async () => {
+          let response = await fetch('https://api.github.com/repos/9u3/9u3.github.io/contents/gta/tutorials');
+          let data = await response.json();
+          let htmlString = '<ul>';
+          let blacklist = {
+            'index.html': 1,
+          };
+
+          for (let file of data) {
+              if(file.name in blacklist) {
+                  continue;
+              }
+
+              htmlString += `<li>For "${file.name.replace(".txt", "")}" click <a href="https://9u3.github.io/${file.path}">this</a></li>`;
+          }
+
+          htmlString += '</ul>';
+          document.getElementsByTagName('body')[0].innerHTML = htmlString;
+      })();
+    </script>
+  <body>
+</html>
