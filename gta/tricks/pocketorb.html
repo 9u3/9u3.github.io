@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>I Syvects I</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+@font-face {
+   font-family: 'Poppins', sans-serif;
+}
+
+* {
+   font-family: 'Poppins', sans-serif;
+}
+   
+           
+#myDiv {
+   display: none;
+   text-align: center;
+}
+</style>
+</head>
+<body onload="JustATimeout()" style="margin:0;">
+   
+<div style="display:none;" id="myDiv">
+   <style>
+       #shadowBox {
+       background-color: rgb(0, 0, 0);
+       /* Fallback color */
+       background-color: rgba(43,43,43, 0.2);
+       /* Black w/opacity/see-through */
+       border: 10px solid;
+       }
+
+       .rainbow {
+           text-align: center;
+           text-decoration: underline;
+           font-size: 32px;
+           font-family: monospace;
+           letter-spacing: 5px;
+       }
+       .rainbow_text_animated {
+           background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+           -webkit-background-clip: text;
+           background-clip: text;
+           color: transparent;
+           animation: rainbow_animation 6s ease-in-out infinite;
+           background-size: 400% 100%;
+       }
+
+       @keyframes rainbow_animation {
+           0%,100% {
+               background-position: 0 0;
+           }
+
+           50% {
+               background-position: 100% 0;
+
+       </style>
+
+       <style>
+         a:link, a:visited {
+             background-color: rgb(43,43,43);
+             color: rgb(25,175,175);
+             border: 2px solid rgb(125,125,125);
+             padding: 10px 20px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+           }
+
+         a:hover, a:active {
+             background-color: rgb(75,75,75);
+             color: rgb(175,25,25);
+         }
+       </style>
+
+       <div id="shadowBox">
+           <h3 class="rainbow rainbow_text_animated">Pocket Orbital</h3>
+       </div>
+  
+       <iframe width="853" height="480" src="https://www.youtube.com/embed/lc8cEBZpgJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+       <div id="INFO">
+           <h3 id="_INFO">Method:\n1. Hold your Homing Launcher and fire a rocket\n2. Switch to sticky bomb then to flare gun as fast as possible\n3. Shoot flare gun.</h3>
+       </div>
+
+       <div id="H">
+         <h3 id="_home">Home Page</h3>
+           <a href="https://9u3.github.io/">Go to the home page</a>
+       </div>
+   </div>
+
+<script>
+var myVar;
+
+function JustATimeout() {
+  myVar = setTimeout(showPage, 10);
+}
+
+function showPage() {
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<style>
+  body {
+    background-color: rgb(43,43,43);
+  }
+  #_INFO {background-color:rgba(0,0,0,0.5);}
+  #_home {background-color:rgba(0,0,0,0.3);}
+</style>
+</body>
+</html>
