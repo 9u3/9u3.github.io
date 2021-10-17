@@ -14,6 +14,5 @@ for _, plr in pairs(BRUH2:GetPlayers()) do
     pp(plr)
 end
 BRUH2.PlayerAdded:Connect(function(plr)
-    wait(3)
     pp(plr)
 end)
