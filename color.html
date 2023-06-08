@@ -1,0 +1,156 @@
+<div class="container my-4">
+  <form class="pb-5 mb-5 border-bottom" id="gradient-tool">
+    <div class="form-inline mb-3">
+      <input type="text" id="in" class="form-control col-md-8 col-sm-6 mr-sm-2 mb-2" placeholder="Your text here!" required>
+      <input id="c1" type="color" value="#ffffff" class="form-control col mr-2 mb-2">
+      <button class="btn btn-secondary mr-2 mb-2" type="button" id="swap"><i class="fas fa-exchange-alt"></i></button>
+      <input id="c2" type="color" value="#ffffff" class="form-control col mb-2">
+    </div>
+    <div class="form-inline justify-content-end">
+      <button type="button" class="btn btn-dark col-sm-3 col mr-2" id="randomize">Randomize</button>
+      <button type="submit" class="btn btn-primary col-sm-3 col" id="generate">Generate</button>
+    </div>
+  </form>
+  <div class="pb-5 mb-2 border-bottom">
+    <div class="card mb-3 collapse">
+      <div class="card-body">
+        <h6 class="card-subtitle mb-2 text-muted text-uppercase small">preview</h6>
+        <div id="preview"></div>
+      </div>
+    </div>
+    <textarea id="out" class="form-control" rows="5" readonly placeholder="Code"></textarea>
+  </div>
+</div>
+
+<script>
+  class Generator {
+  constructor() {
+    this.$c1 = $("#c1");
+    this.$c2 = $("#c2");
+    this.$out = $("#out");
+    this.$preview = $("#preview");
+    this.$tool = $("#gradient-tool");
+    
+    this.getGradients();
+  }
+  
+  getGradients() {
+    var _this = this;
+    
+    $.getJSON('https://raw.githubusercontent.com/ghosh/uiGradients/master/gradients.json', function(data) {
+      _this.gradients = data;
+      _this.randomize(false);
+    });
+  }
+  
+  generate() {
+    if (! this.$tool.get(0).checkValidity()) {
+      return;
+    }
+    
+    var txt = $("#in").val();
+    var txtlen = txt.length;
+    
+    this.$out.val('');
+    this.$preview.html('');
+
+    for (var i = 0; i < txtlen; i++) {
+      var charcur = txt.charAt(i);
+      var camount = i / txtlen;
+      var cl = lerpColor(this.$c1.val(), this.$c2.val(), camount);
+
+      this.$out.val(
+        this.$out.val() + 
+        "<font color='" + cl + "'>" +
+        charcur +
+        "</font>"
+      );
+      
+      this.$preview.html(
+        this.$preview.html() + 
+        "<font color='" + cl + "'>" +
+        charcur +
+        "</font>"
+      );
+    }
+    
+    this.$preview.parents('.collapse').collapse('show');
+  }
+  
+  randomize(generate = true) {
+    this.gradient = this.gradients.random().colors;
+    
+    this.$c1.val(this.gradient[0]);
+    this.$c2.val(this.gradient[1]);
+    
+    if (generate) {
+      this.generate();
+    }
+  }
+  
+  swap(generate = true) {
+    var c1 = this.$c1.val(),
+        c2 = this.$c2.val();
+    
+    this.$c1.val(c2);
+    this.$c2.val(c1);
+    
+    if (generate) {
+      this.generate();
+    }
+  }
+}
+
+$(document).ready(function() {
+  let generator = new Generator;
+  
+  $('#randomize').click(function() {
+    generator.randomize();
+  });
+  
+  $('#swap').click(function() {
+    generator.swap();
+  });
+  
+  $('#c1, #c2').change(_.debounce(function() {
+    generator.generate();
+  }, 200));
+  
+	$("#gradient-tool").submit(function(e) {
+    e.preventDefault();
+    
+    generator.generate();
+  });
+  
+  $('#out').click(function() {
+    this.focus();
+    this.select();
+  })
+});
+
+/**
+ * A linear interpolator for hexadecimal colors
+ * @param {String} a
+ * @param {String} b
+ * @param {Number} amount
+ * @example
+ * // returns #7F7F7F
+ * lerpColor('#000000', '#ffffff', 0.5)
+ * @returns {String}
+ */
+function lerpColor(a, b, amount) {
+	var ah = parseInt(a.replace(/#/g, ''), 16),
+    ar = ah >> 16, ag = ah >> 8 & 0xff, ab = ah & 0xff,
+    bh = parseInt(b.replace(/#/g, ''), 16),
+    br = bh >> 16, bg = bh >> 8 & 0xff, bb = bh & 0xff,
+    rr = ar + amount * (br - ar),
+    rg = ag + amount * (bg - ag),
+    rb = ab + amount * (bb - ab);
+    
+  return '#' + ((1 << 24) + (rr << 16) + (rg << 8) + rb | 0).toString(16).slice(1);
+}
+
+Array.prototype.random = function () {
+  return this[Math.floor((Math.random()*this.length))];
+}
+</script>
