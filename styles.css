@@ -1,0 +1,10 @@
+.form-control[type="color"] {
+  height: 24px + 12px + 2px;
+}
+
+a {
+  transition: color .2s;
+  
+  &:hover, &:active {
+    text-decoration: none;
+  }
