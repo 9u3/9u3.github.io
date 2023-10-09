@@ -2,6 +2,7 @@
   "FStringFlagUpdateVersion": "151",
   "FIntTerrainOTAMaxTextureSize": 1024,
   "FIntUITextureMaxRenderTextureSize": 1024,
+  "FFlagDebugGraphicsPreferD3D11": true,
   "FIntMeshContentProviderForceCacheSize": 268435456,
   "FIntDefaultMeshCacheSizeMB": 256,
   "DFIntHttpCurlConnectionCacheSize": 134217728,
