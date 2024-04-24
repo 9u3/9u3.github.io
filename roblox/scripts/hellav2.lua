@@ -59,7 +59,7 @@ local function httpload(url)
     return unpack(results, 2)
 end
 
-local prefix = "moongod: "
+local prefix = "hella: "
 
 local function log(text)
     print(prefix..text)
@@ -107,7 +107,7 @@ do
         HB:Wait()
         for i,v in pairs(char:GetChildren()) do
            if v:IsA("Script") and v:FindFirstChildOfClass("LocalScript") then
-              v:FindFirstChildOfClass("LocalScript").Source = "Cleared by moongod"
+              v:FindFirstChildOfClass("LocalScript").Source = "Cleared by hella"
               return
            end
         end
