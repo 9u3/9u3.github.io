@@ -1,0 +1,897 @@
+{
+  "10 Karat Gold": {
+    "value": 300,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "12 Karat Gold": {
+    "value": 500,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "16x Microchip": {
+    "value": 17600,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "18 Karat Gold": {
+    "value": 800,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "24 Karat Gold": {
+    "value": 1200,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "2x Microchip": {
+    "value": 4000,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "2x64x Microchip": {
+    "value": 100000,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "32x Microchip": {
+    "value": 22000,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "3x64x Microchip": {
+    "value": 250000,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "4x Microchip": {
+    "value": 8400,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "4x64x Microchip": {
+    "value": 375000,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "5x64x Microchip": {
+    "value": 1000000,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "64x Microchip": {
+    "value": 28220,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "6x64x Microchip": {
+    "value": 2000000,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "7x64x Microchip": {
+    "value": 3000000,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "8 Karat Gold": {
+    "value": 160,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "8x Microchip": {
+    "value": 13200,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "8x64x Microchip": {
+    "value": 5000000,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "Acetic Acid": {
+    "value": 14.5,
+    "rp_multiplier": 7,
+    "fluid_rp_value": 7
+  },
+  "Alumina": {
+    "value": 100,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Alumina Dust": {
+    "value": 90,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Aluminum Ingot": {
+    "value": 800,
+    "rp_multiplier": 65,
+    "fluid_rp_value": null
+  },
+  "Bauxite Residue": {
+    "value": 50,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Black Dye": {
+    "value": 8.7,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Brass Ingot": {
+    "value": 80,
+    "rp_multiplier": 35,
+    "fluid_rp_value": null
+  },
+  "Cat": {
+    "value": 20000,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Chair": {
+    "value": 1029.5,
+    "rp_multiplier": 30,
+    "fluid_rp_value": null
+  },
+  "Charged Lithium-Ion Battery": {
+    "value": 4000,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Cheap Water Bottle": {
+    "value": 130.5,
+    "rp_multiplier": 5,
+    "fluid_rp_value": null
+  },
+  "Chlorine": {
+    "value": 0.2,
+    "rp_multiplier": 0.5,
+    "fluid_rp_value": null
+  },
+  "Chunk Plank": {
+    "value": 3.48,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Coal": {
+    "value": 5.22,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Coke Fuel": {
+    "value": 18,
+    "rp_multiplier": 9,
+    "fluid_rp_value": null
+  },
+  "Concentrated Salt Solution": {
+    "value": 2,
+    "rp_multiplier": 1,
+    "fluid_rp_value": 1
+  },
+  "Condensate": {
+    "value": 0.1,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Copper Drill Head": {
+    "value": 20000,
+    "rp_multiplier": 25,
+    "fluid_rp_value": null
+  },
+  "Copper Ingot": {
+    "value": 26.68,
+    "rp_multiplier": 1.5,
+    "fluid_rp_value": null
+  },
+  "Copper Mix": {
+    "value": 3,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Copper Plate": {
+    "value": 32.86,
+    "rp_multiplier": 6,
+    "fluid_rp_value": null
+  },
+  "Copper Powder": {
+    "value": 7,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Copper Wire": {
+    "value": 7.31,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Crankshaft": {
+    "value": 754,
+    "rp_multiplier": 35,
+    "fluid_rp_value": null
+  },
+  "Crude Diesel": {
+    "value": 13.05,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Crude Oil": {
+    "value": 11.6,
+    "rp_multiplier": 0.2,
+    "fluid_rp_value": 0.2
+  },
+  "Crushed Bauxite": {
+    "value": 75,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Cut Oak Log": {
+    "value": 3.48,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Deep Earth Fragment": {
+    "value": 200,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Diesel": {
+    "value": 30.45,
+    "rp_multiplier": 2,
+    "fluid_rp_value": 2
+  },
+  "Dirty Lithium Sulfate": {
+    "value": 60,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Distilled Water": {
+    "value": 1,
+    "rp_multiplier": 0.3,
+    "fluid_rp_value": 0.3
+  },
+  "Dynamite": {
+    "value": 90,
+    "rp_multiplier": 25,
+    "fluid_rp_value": null
+  },
+  "Electric Motor": {
+    "value": 4500,
+    "rp_multiplier": 200,
+    "fluid_rp_value": null
+  },
+  "Electromagnet": {
+    "value": 950,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Ethanol": {
+    "value": 5.8,
+    "rp_multiplier": 2,
+    "fluid_rp_value": 7
+  },
+  "Ethylene": {
+    "value": 14.5,
+    "rp_multiplier": 0.2,
+    "fluid_rp_value": null
+  },
+  "Exhaust": {
+    "value": -0.5,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Ferroaluminum Alloy Ingot": {
+    "value": 2000,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Ferroaluminum Magnet": {
+    "value": 8500,
+    "rp_multiplier": 120,
+    "fluid_rp_value": null
+  },
+  "Filter": {
+    "value": 20,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Filtered Water": {
+    "value": 0.55,
+    "rp_multiplier": 0.2,
+    "fluid_rp_value": 0.2
+  },
+  "Fracking Oil": {
+    "value": 1,
+    "rp_multiplier": 0.2,
+    "fluid_rp_value": null
+  },
+  "Galvanized Steel": {
+    "value": 123,
+    "rp_multiplier": 33,
+    "fluid_rp_value": null
+  },
+  "Gasoline": {
+    "value": 40.6,
+    "rp_multiplier": 7.5,
+    "fluid_rp_value": null
+  },
+  "GasolineE10": {
+    "value": 57,
+    "rp_multiplier": 13,
+    "fluid_rp_value": 12
+  },
+  "Gear": {
+    "value": 98.6,
+    "rp_multiplier": 20,
+    "fluid_rp_value": null
+  },
+  "Gearbox": {
+    "value": 2552,
+    "rp_multiplier": 50,
+    "fluid_rp_value": null
+  },
+  "Glass": {
+    "value": 80,
+    "rp_multiplier": 14,
+    "fluid_rp_value": null
+  },
+  "Gold Ingot": {
+    "value": 4250,
+    "rp_multiplier": 70,
+    "fluid_rp_value": null
+  },
+  "Gold Wire": {
+    "value": 200,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Graphite-Iron Electrode": {
+    "value": 80,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Graphite-Zinc Electrode": {
+    "value": 60,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Gravel": {
+    "value": 3,
+    "rp_multiplier": 0.1,
+    "fluid_rp_value": null
+  },
+  "Gunpowder": {
+    "value": 70,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Heavy Oil": {
+    "value": 5,
+    "rp_multiplier": 0.2,
+    "fluid_rp_value": null
+  },
+  "High Pressure Steam": {
+    "value": 0.03,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Hot Crude Oil": {
+    "value": 0.14,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Hydrochloric Acid": {
+    "value": 80,
+    "rp_multiplier": 10,
+    "fluid_rp_value": 10
+  },
+  "Hydrogen": {
+    "value": 0.02,
+    "rp_multiplier": 0.5,
+    "fluid_rp_value": null
+  },
+  "Hydrogen Sulfide": {
+    "value": 8,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Insulated Wire": {
+    "value": 40,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Iron Coil": {
+    "value": 43.85,
+    "rp_multiplier": 4,
+    "fluid_rp_value": null
+  },
+  "Iron Drill Head": {
+    "value": 145000,
+    "rp_multiplier": 30,
+    "fluid_rp_value": null
+  },
+  "Iron Ingot": {
+    "value": 65.54,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Iron Mix": {
+    "value": 10,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Iron Plate": {
+    "value": 70.18,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Iron Plate^2": {
+    "value": 295.8,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Iron Powder": {
+    "value": 15,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "LNG": {
+    "value": 174,
+    "rp_multiplier": 2,
+    "fluid_rp_value": 2
+  },
+  "Lead Ingot": {
+    "value": 25,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Leaded Gasoline": {
+    "value": 112,
+    "rp_multiplier": 23,
+    "fluid_rp_value": 20
+  },
+  "Light Oil": {
+    "value": 7,
+    "rp_multiplier": 0.1,
+    "fluid_rp_value": null
+  },
+  "Liquid Aluminum": {
+    "value": 200,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Liquid Brass": {
+    "value": 30,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Liquid Copper": {
+    "value": 7.54,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Liquid Glass": {
+    "value": 10,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Liquid Gold": {
+    "value": 1000,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Liquid Iron": {
+    "value": 23.2,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Liquid Lead": {
+    "value": 5,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Liquid Sulfur": {
+    "value": 12,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Lithium Battery Pack": {
+    "value": 85000,
+    "rp_multiplier": 180,
+    "fluid_rp_value": null
+  },
+  "Lithium Brine": {
+    "value": 25,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Lithium Carbonate": {
+    "value": 200,
+    "rp_multiplier": 40,
+    "fluid_rp_value": null
+  },
+  "Lithium Ore": {
+    "value": 10,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Lithium Sulfate": {
+    "value": 100,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Logic Plate": {
+    "value": 65,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Low Pressure Steam": {
+    "value": 0.03,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "MEG": {
+    "value": 2.9,
+    "rp_multiplier": 0.2,
+    "fluid_rp_value": null
+  },
+  "Machine Oil": {
+    "value": 29,
+    "rp_multiplier": 4,
+    "fluid_rp_value": 4
+  },
+  "Medium Earth Fragment": {
+    "value": 120,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Molten Ferroaluminum Alloy": {
+    "value": 1250,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Molten Purple Gold": {
+    "value": 580,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Nails": {
+    "value": 2.9,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Naphtha": {
+    "value": 15.6,
+    "rp_multiplier": 0.1,
+    "fluid_rp_value": null
+  },
+  "Oak Log": {
+    "value": 5.8,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Oil Bottle": {
+    "value": 208.8,
+    "rp_multiplier": 20,
+    "fluid_rp_value": null
+  },
+  "Oxygen": {
+    "value": 0.01,
+    "rp_multiplier": 0.5,
+    "fluid_rp_value": null
+  },
+  "PTA": {
+    "value": 2.9,
+    "rp_multiplier": 0.2,
+    "fluid_rp_value": null
+  },
+  "Packed Present": {
+    "value": 300,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "Paper": {
+    "value": 14.5,
+    "rp_multiplier": 7,
+    "fluid_rp_value": null
+  },
+  "Paraxylene": {
+    "value": 14.5,
+    "rp_multiplier": 0.2,
+    "fluid_rp_value": null
+  },
+  "Plank^2": {
+    "value": 40.6,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Planks": {
+    "value": 13.05,
+    "rp_multiplier": 5,
+    "fluid_rp_value": null
+  },
+  "Plastic Bottle": {
+    "value": 72.5,
+    "rp_multiplier": 30,
+    "fluid_rp_value": null
+  },
+  "Plastic Casing": {
+    "value": 145,
+    "rp_multiplier": 7,
+    "fluid_rp_value": null
+  },
+  "Plastic Pellets": {
+    "value": 0.87,
+    "rp_multiplier": 25,
+    "fluid_rp_value": null
+  },
+  "Poor Quality Diesel": {
+    "value": 21.75,
+    "rp_multiplier": 1.5,
+    "fluid_rp_value": 1.5
+  },
+  "Powdered Tungsten": {
+    "value": 150,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Powdered Tungsten Carbide": {
+    "value": 210,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Present Box": {
+    "value": 173,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Purple Gold Ingot": {
+    "value": 20000,
+    "rp_multiplier": 100,
+    "fluid_rp_value": null
+  },
+  "Raw Copper": {
+    "value": 5.51,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Raw Gas": {
+    "value": 0.03,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Raw Iron": {
+    "value": 5.8,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Raw Lead": {
+    "value": 10,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Raw Zinc": {
+    "value": 5,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Refined Diesel": {
+    "value": 40.6,
+    "rp_multiplier": 3,
+    "fluid_rp_value": 3
+  },
+  "Refined Diesel Bottle": {
+    "value": 449.5,
+    "rp_multiplier": 15,
+    "fluid_rp_value": null
+  },
+  "Refined Gas": {
+    "value": 0.29,
+    "rp_multiplier": 0.01,
+    "fluid_rp_value": 0.01
+  },
+  "Residue": {
+    "value": -5.8,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Residue Bottle": {
+    "value": 0,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Rich Soil": {
+    "value": 5,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Rock": {
+    "value": 4,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Rubber": {
+    "value": 19.4,
+    "rp_multiplier": 90,
+    "fluid_rp_value": null
+  },
+  "Sand": {
+    "value": 5,
+    "rp_multiplier": 0.1,
+    "fluid_rp_value": null
+  },
+  "Semiconductor": {
+    "value": 650,
+    "rp_multiplier": 30,
+    "fluid_rp_value": null
+  },
+  "Shallow Earth Fragment": {
+    "value": 30,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Silicon": {
+    "value": 50,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Sodium Carbonate": {
+    "value": 8,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Sodium Hydroxide Solution": {
+    "value": 10,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Soil": {
+    "value": 2,
+    "rp_multiplier": 0.1,
+    "fluid_rp_value": null
+  },
+  "Steam": {
+    "value": 0.03,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Steel Coil": {
+    "value": 75,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Steel Drill Head": {
+    "value": 190000,
+    "rp_multiplier": 125,
+    "fluid_rp_value": null
+  },
+  "Steel Ingot": {
+    "value": 48.72,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Steel Plate": {
+    "value": 89.9,
+    "rp_multiplier": 18,
+    "fluid_rp_value": null
+  },
+  "Steel Rod": {
+    "value": 92.8,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Sulfur": {
+    "value": 20,
+    "rp_multiplier": 12,
+    "fluid_rp_value": null
+  },
+  "Sulfur Dioxide": {
+    "value": 2,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Sulfur Trioxide": {
+    "value": 2.5,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Sulfuric Acid": {
+    "value": 65,
+    "rp_multiplier": 4,
+    "fluid_rp_value": null
+  },
+  "Table Salt": {
+    "value": 4,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Tetraethyllead": {
+    "value": 21,
+    "rp_multiplier": 7,
+    "fluid_rp_value": null
+  },
+  "Tire": {
+    "value": 2000,
+    "rp_multiplier": 40,
+    "fluid_rp_value": null
+  },
+  "Tire Rim": {
+    "value": 1800,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Toy": {
+    "value": 101.5,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Treated Raw Copper": {
+    "value": 6,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Treated Raw Iron": {
+    "value": 8,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Treated Rock": {
+    "value": 15,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Tungsten Carbide Drill Head": {
+    "value": 800000,
+    "rp_multiplier": 225,
+    "fluid_rp_value": null
+  },
+  "Tungsten Carbide Plate": {
+    "value": 600,
+    "rp_multiplier": 70,
+    "fluid_rp_value": null
+  },
+  "Uncharged Lithium-Ion Battery": {
+    "value": 2000,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Uranium": {
+    "value": 8000,
+    "rp_multiplier": null,
+    "fluid_rp_value": null
+  },
+  "Water": {
+    "value": 0.23,
+    "rp_multiplier": 0,
+    "fluid_rp_value": 0
+  },
+  "Water Bottle": {
+    "value": 174,
+    "rp_multiplier": 20,
+    "fluid_rp_value": null
+  },
+  "Water-Free Gas": {
+    "value": 0.14,
+    "rp_multiplier": 0,
+    "fluid_rp_value": null
+  },
+  "Zinc": {
+    "value": 20,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Zinc Sulfate": {
+    "value": 10,
+    "rp_multiplier": 1,
+    "fluid_rp_value": null
+  },
+  "Boric Acid": {
+    "value": 0,
+    "rp_multiplier": null,
+    "fluid_rp_value": 12
+  },
+  "Ammonia": {
+    "value": 0,
+    "rp_multiplier": null,
+    "fluid_rp_value": 15
+  }
+}
